@@ -1,0 +1,21 @@
+{
+    "name": "claude-chatgpt-image-mcp",
+    "version": "1.0.0",
+    "description": "Production MCP Server - Claude + ChatGPT + Image Processing",
+    "type": "module",
+    "main": "src/index.js",
+    "scripts": {
+          "start": "node src/index.js",
+          "dev": "NODE_ENV=development node src/index.js",
+          "test": "node src/test.js"
+    },
+    "dependencies": {
+          "@anthropic-ai/sdk": "^0.20.0",
+          "openai": "^4.53.0",
+          "sharp": "^0.34.0",
+          "axios": "^1.7.0",
+          "dotenv": "^16.4.0",
+          "uuid": "^9.0.1",
+          "winston": "^3.13.0"
+    }
+}
